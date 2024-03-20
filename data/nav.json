@@ -1,0 +1,4 @@
+[
+	{ "text": "Home", "url": "/" },
+	{ "text": "Education", "urls": [{ "text": "GED", "url": "/education/ged" }] }
+]
