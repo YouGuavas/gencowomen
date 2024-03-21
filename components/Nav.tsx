@@ -5,11 +5,11 @@ export function Nav() {
 	const renderNavLink = (link: any) => {
 		if (link.urls) {
 			return (
-				<select>
+				<>
 					{link.urls.map((submenu: any, index: number) => {
 						return <Dropdown submenu={submenu} key={index} />;
 					})}
-				</select>
+				</>
 			);
 		} else if (link.url) {
 			return <a href={link.url}>{link.text}</a>;

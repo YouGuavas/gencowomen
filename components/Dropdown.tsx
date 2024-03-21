@@ -1,9 +1,10 @@
 import styles from '../styles/components/Dropdown.module.css';
+import { Submenu } from '../types/types';
 
-export function Dropdown({ submenu }: any) {
+export function Dropdown(submenu: Submenu) {
 	return (
-		<ul className={`${styles.dropdown}`}>
-			<li>hi</li>
+		<ul>
+			<li>{}</li>
 		</ul>
 	);
 }
