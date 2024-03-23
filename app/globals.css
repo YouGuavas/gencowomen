@@ -3,8 +3,11 @@
 @tailwind utilities;
 
 :root {
-	--color-1: #f2e4e0;
-	--color-4: #ff5f56;
+	--color-1: #f3f3f3;
+	--color-2: #e0d6cb;
+	--color-3: #c98a68;
+	--color-4: #739484;
+	--color-5: #523c2f;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -14,5 +17,5 @@
 
 body {
 	color: var(--color-4);
-	background-color: var(--color-1);
+	background-color: var(--color-2);
 }

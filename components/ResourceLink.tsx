@@ -7,10 +7,9 @@ const ResourceLink: React.FC<ResourceLinkType> = ({
 	url,
 	description,
 }) => {
-	const jsxURL = <>{url}</>;
 	return (
 		<>
-			<Link className={`flex flex-col ${styles.link}`} href={url}>
+			<Link className={`flex flex-col row-span-1 ${styles.link}`} href={url}>
 				<span>{title}</span>
 				{description ? <span>{description}</span> : <></>}
 			</Link>
