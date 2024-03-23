@@ -1,6 +1,7 @@
-import { ResourceLink } from '@/types/types';
+import { LinkType } from '@/types/types';
+import Link from 'next/link';
 
-const ResourceLink: React.FC<ResourceLink> = ({ title, url }) => {
+const ResourceLink: React.FC<LinkType> = ({ title, url }) => {
 	return <>{title}</>;
 };
-module.exports = { ResourceLink };
+export default ResourceLink;

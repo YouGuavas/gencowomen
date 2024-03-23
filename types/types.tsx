@@ -1,8 +1,7 @@
-export type Submenu = Array<Link>;
-export interface ResourceLink {
+export interface LinkType {
 	title: Text;
 	url: Text;
 }
 export interface TableProps {
-	links: ResourceLink[];
+	links: LinkType[];
 }
