@@ -1,7 +1,7 @@
 export default function Home() {
 	return (
 		<>
-			<header>
+			<header className="p-6 text-center">
 				<h1>Welcome to the Genesee County Women's Resource Directory!</h1>
 				<p>
 					Our mission is to connect underserved women in Genesee County,
@@ -9,7 +9,7 @@ export default function Home() {
 				</p>
 			</header>
 
-			<main className="flex min-h-screen flex-col items-center justify-between p-24">
+			<main className="flex min-h-screen flex-col justify-between p-24">
 				<section className="mb-8">
 					<h2 className="text-2xl font-bold mb-4">Healthcare Services</h2>
 					<ul className="list-disc ml-4">
@@ -107,7 +107,7 @@ export default function Home() {
 				</section>
 			</main>
 
-			<footer>
+			<footer className="p-6 text-center">
 				<p>
 					For additional information or assistance, please contact us at
 					[Organization Name], located at [Address], or call us at [Phone

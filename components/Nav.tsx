@@ -3,7 +3,7 @@ import navLinks from '../data/nav.json';
 export function Nav() {
 	return (
 		<nav className={`${styles.nav}`}>
-			<ul>
+			<ul className="flex gap-2">
 				{navLinks.map((link, index) => {
 					return (
 						<li key={index}>
