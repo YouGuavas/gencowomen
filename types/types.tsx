@@ -5,6 +5,9 @@ export interface LinkType {
 	title: ReactNode;
 	url: Url;
 }
+export interface ResourceLinkType extends LinkType {
+	description: ReactNode;
+}
 export interface TableProps {
-	links: LinkType[];
+	links: ResourceLinkType[];
 }

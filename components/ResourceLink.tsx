@@ -1,12 +1,18 @@
-import { LinkType } from '@/types/types';
+import { ResourceLinkType } from '@/types/types';
 import Link from 'next/link';
 import styles from '../styles/components/ResourceLink.module.css';
 
-const ResourceLink: React.FC<LinkType> = ({ title, url }) => {
+const ResourceLink: React.FC<ResourceLinkType> = ({
+	title,
+	url,
+	description,
+}) => {
+	const jsxURL = <>{url}</>;
 	return (
 		<>
-			<Link className={`${styles.link}`} href={url}>
-				{title}
+			<Link className={`flex flex-col ${styles.link}`} href={url}>
+				<span>{title}</span>
+				{description ? <span>{description}</span> : <></>}
 			</Link>
 		</>
 	);
