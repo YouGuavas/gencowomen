@@ -19,3 +19,36 @@ body {
 	color: var(--color-4);
 	background-color: var(--color-2);
 }
+/* Backgrounds */
+.background-1 {
+	background-color: var(--color-1);
+}
+.background-2 {
+	background-color: var(--color-2);
+}
+.background-3 {
+	background-color: var(--color-3);
+}
+.background-4 {
+	background-color: var(--color-4);
+}
+.background-5 {
+	background-color: var(--color-5);
+}
+
+/*Text Color*/
+.color-1 {
+	color: var(--color-1);
+}
+.color-2 {
+	color: var(--color-2);
+}
+.color-3 {
+	color: var(--color-3);
+}
+.color-4 {
+	color: var(--color-4);
+}
+.color-5 {
+	color: var(--color-5);
+}
