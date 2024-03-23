@@ -1,5 +1,8 @@
 export type Submenu = Array<Link>;
 export interface Link {
-	text: Text;
+	title: Text;
 	url: Text;
+}
+export interface TableProps {
+	links: Link[];
 }
