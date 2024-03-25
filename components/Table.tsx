@@ -13,6 +13,7 @@ const Table: React.FC<TableProps> = ({ links }) => {
 						title={link.title}
 						url={link.url}
 						description={link.description}
+						programs={link.programs}
 					/>
 				);
 			})}

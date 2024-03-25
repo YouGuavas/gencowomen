@@ -7,6 +7,7 @@ const ResourceLink: React.FC<ResourceLinkType> = ({
 	url,
 	description,
 }) => {
+	console.log('b-' + url);
 	return (
 		<>
 			<Link

@@ -8,6 +8,9 @@ export interface LinkType {
 export interface ResourceLinkType extends LinkType {
 	description: ReactNode;
 }
+export interface PrimaryResourceLinkType extends ResourceLinkType {
+	programs: ResourceLinkType[];
+}
 export interface TableProps {
 	links: ResourceLinkType[];
 }

@@ -1,6 +1,14 @@
 [
 	{
+		"id": "ged",
 		"title": "GED Programs",
-		"url": "/education/ged"
+		"url": "/education/ged",
+		"programs": [
+			{
+				"title": "GCCARD",
+				"url": "/",
+				"description": "Genesee County Community Action Resource Department (GCCARD)"
+			}
+		]
 	}
 ]

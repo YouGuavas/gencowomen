@@ -1,4 +1,5 @@
 import styles from '../styles/components/Nav.module.css';
+import Link from 'next/link';
 import navLinks from '../data/nav.json';
 export function Nav() {
 	return (
@@ -8,7 +9,7 @@ export function Nav() {
 					return (
 						<li key={index}>
 							{' '}
-							<a href={link.url}>{link.text}</a>
+							<Link href={link.url}>{link.text}</Link>
 						</li>
 					);
 				})}
