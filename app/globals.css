@@ -23,16 +23,35 @@ body {
 .background-1 {
 	background-color: var(--color-1);
 }
+.hover-background-1:hover {
+	background-color: var(--color-1);
+}
+
 .background-2 {
 	background-color: var(--color-2);
 }
+.hover-background-2:hover {
+	background-color: var(--color-2);
+}
+
 .background-3 {
 	background-color: var(--color-3);
 }
+.hover-background-3:hover {
+	background-color: var(--color-3);
+}
+
 .background-4 {
 	background-color: var(--color-4);
 }
+.hover-background-4:hover {
+	background-color: var(--color-4);
+}
+
 .background-5 {
+	background-color: var(--color-5);
+}
+.hover-background-5:hover {
 	background-color: var(--color-5);
 }
 
@@ -40,15 +59,30 @@ body {
 .color-1 {
 	color: var(--color-1);
 }
+.hover-color-1:hover {
+	color: var(--color-1);
+}
 .color-2 {
+	color: var(--color-2);
+}
+.hover-color-2:hover {
 	color: var(--color-2);
 }
 .color-3 {
 	color: var(--color-3);
 }
+.hover-color-3:hover {
+	color: var(--color-3);
+}
 .color-4 {
 	color: var(--color-4);
 }
+.hover-color-4:hover {
+	color: var(--color-4);
+}
 .color-5 {
+	color: var(--color-5);
+}
+.hover-color-5:hover {
 	color: var(--color-5);
 }

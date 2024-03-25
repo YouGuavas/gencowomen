@@ -1,7 +1,7 @@
 export default function Home() {
 	return (
 		<>
-			<header className="p-6 text-center">
+			<header className="p-6 text-center background-3 color-2">
 				<h1>Welcome to the Genesee County Women's Resource Directory!</h1>
 				<p>
 					Our mission is to connect underserved women in Genesee County,
@@ -10,9 +10,11 @@ export default function Home() {
 			</header>
 
 			<main className="flex min-h-screen flex-col justify-between p-24">
-				<section className="mb-8">
-					<h2 className="text-2xl font-bold mb-4">Healthcare Services</h2>
-					<ul className="list-disc ml-4">
+				<section className="background-3 px-2 py-4">
+					<h2 className="text-2xl font-bold color-1 mb-4">
+						Healthcare Services
+					</h2>
+					<ul className="list-disc ml-4 color-2">
 						<li>
 							Women's clinics and healthcare providers offering affordable or
 							free services
@@ -25,9 +27,9 @@ export default function Home() {
 					</ul>
 				</section>
 
-				<section className="mb-8">
+				<section className="background-1 px-2 py-4">
 					<h2 className="text-2xl font-bold mb-4">Employment and Education</h2>
-					<ul className="list-disc ml-4">
+					<ul className="list-disc ml-4 color-5">
 						<li>Job training programs and career development resources</li>
 						<li>
 							Educational opportunities, including scholarships and vocational
@@ -40,9 +42,11 @@ export default function Home() {
 					</ul>
 				</section>
 
-				<section className="mb-8">
-					<h2 className="text-2xl font-bold mb-4">Housing and Shelter</h2>
-					<ul className="list-disc ml-4">
+				<section className="background-3 px-2 py-4">
+					<h2 className="text-2xl font-bold mb-4 color-1">
+						Housing and Shelter
+					</h2>
+					<ul className="list-disc ml-4 color-2">
 						<li>
 							Emergency shelters and transitional housing options for women and
 							families
@@ -54,9 +58,9 @@ export default function Home() {
 						</li>
 					</ul>
 				</section>
-				<section className="mb-8">
+				<section className="background-1 px-2 py-4">
 					<h2 className="text-2xl font-bold mb-4">Financial Assistance</h2>
-					<ul className="list-disc ml-4">
+					<ul className="list-disc ml-4 color-5">
 						<li>Financial literacy workshops and counseling services</li>
 						<li>
 							Programs offering assistance with utility bills, groceries, and
@@ -69,9 +73,11 @@ export default function Home() {
 					</ul>
 				</section>
 
-				<section className="mb-8">
-					<h2 className="text-2xl font-bold mb-4">Legal Aid and Advocacy</h2>
-					<ul className="list-disc ml-4">
+				<section className="background-3 px-2 py-4">
+					<h2 className="text-2xl font-bold mb-4 color-1">
+						Legal Aid and Advocacy
+					</h2>
+					<ul className="list-disc ml-4 color-2">
 						<li>
 							Legal aid organizations providing free or low-cost legal services
 						</li>
@@ -86,11 +92,11 @@ export default function Home() {
 					</ul>
 				</section>
 
-				<section className="mb-8">
+				<section className="background-1 px-2 py-4">
 					<h2 className="text-2xl font-bold mb-4">
 						Community Support and Outreach
 					</h2>
-					<ul className="list-disc ml-4">
+					<ul className="list-disc ml-4 color-5">
 						<li>
 							Support groups and peer counseling services for women facing
 							various challenges
@@ -107,7 +113,7 @@ export default function Home() {
 				</section>
 			</main>
 
-			<footer className="p-6 text-center">
+			<footer className="p-6 text-center background-3 color-2">
 				<p>
 					For additional information or assistance, please contact us at
 					[Organization Name], located at [Address], or call us at [Phone
