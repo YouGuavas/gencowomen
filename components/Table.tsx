@@ -1,18 +1,10 @@
 import ResourceLink from './ResourceLink';
-import {
-	LinkType,
-	ResourceLinkType,
-	TablePropsA,
-	TablePropsB,
-} from '@/types/types';
+import { LinkType, TableProps } from '@/types/types';
 import styles from '../styles/components/Table.module.css';
-const Table: React.FC<TablePropsA | TablePropsB> = ({
-	links,
-	resourceTrue,
-}) => {
+const Table: React.FC<TableProps> = ({ links, resourceTrue }) => {
 	const renderTable = (resourceTrue: boolean) => {
 		if (resourceTrue) {
-			return links.map((link: ResourceLinkType, index: number) => {
+			return links.map((link: LinkType, index: number) => {
 				return (
 					<ResourceLink
 						id={link.id}

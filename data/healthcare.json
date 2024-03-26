@@ -2,6 +2,7 @@
 	{
 		"id": "helth",
 		"title": "HELTH Programs",
-		"url": "/education/ged"
+		"url": "/education/ged",
+		"description": false
 	}
 ]

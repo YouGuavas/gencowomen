@@ -2,6 +2,7 @@
 	{
 		"id": "ged",
 		"title": "GED Programs",
-		"url": "/education/ged"
+		"url": "/education/ged",
+		"description": false
 	}
 ]

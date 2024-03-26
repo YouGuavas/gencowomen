@@ -1,12 +1,8 @@
-import { ResourceLinkType } from '@/types/types';
+import { LinkType } from '@/types/types';
 import Link from 'next/link';
 import styles from '../styles/components/ResourceLink.module.css';
 
-const ResourceLink: React.FC<ResourceLinkType> = ({
-	title,
-	url,
-	description,
-}) => {
+const ResourceLink: React.FC<LinkType> = ({ title, url, description }) => {
 	console.log('b-' + url);
 	return (
 		<>
