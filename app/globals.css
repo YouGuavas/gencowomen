@@ -3,11 +3,13 @@
 @tailwind utilities;
 
 :root {
-	--color-1: #f3f3f3;
-	--color-2: #e0d6cb;
-	--color-3: #c98a68;
-	--color-4: #739484;
-	--color-5: #523c2f;
+	--color-1: #faf3dd;
+	--color-2: #f9dbbd;
+	--color-3: #f4c0b5;
+	--color-4: #f6ae9f;
+	--color-5: #f89b88;
+	--color-6: #f58068;
+	--color-7: #2b3663ee;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -20,69 +22,73 @@ body {
 	background-color: var(--color-2);
 }
 /* Backgrounds */
-.background-1 {
-	background-color: var(--color-1);
-}
+.background-1,
 .hover-background-1:hover {
 	background-color: var(--color-1);
 }
 
-.background-2 {
-	background-color: var(--color-2);
-}
+.background-2,
 .hover-background-2:hover {
 	background-color: var(--color-2);
 }
 
-.background-3 {
-	background-color: var(--color-3);
-}
+.background-3,
 .hover-background-3:hover {
 	background-color: var(--color-3);
 }
 
-.background-4 {
-	background-color: var(--color-4);
-}
+.background-4,
 .hover-background-4:hover {
 	background-color: var(--color-4);
 }
 
-.background-5 {
-	background-color: var(--color-5);
-}
+.background-5,
 .hover-background-5:hover {
 	background-color: var(--color-5);
 }
 
-/*Text Color*/
-.color-1 {
-	color: var(--color-1);
+.background-6,
+.hover-background-6:hover {
+	background-color: var(--color-6);
 }
+
+.background-7,
+.hover-background-7:hover {
+	background-color: var(--color-7);
+}
+
+/*Text Color*/
+.color-1,
 .hover-color-1:hover {
 	color: var(--color-1);
 }
-.color-2 {
-	color: var(--color-2);
-}
+
+.color-2,
 .hover-color-2:hover {
 	color: var(--color-2);
 }
-.color-3 {
-	color: var(--color-3);
-}
+
+.color-3,
 .hover-color-3:hover {
 	color: var(--color-3);
 }
-.color-4 {
-	color: var(--color-4);
-}
+
+.color-4,
 .hover-color-4:hover {
 	color: var(--color-4);
 }
-.color-5 {
-	color: var(--color-5);
-}
+
+.color-5,
 .hover-color-5:hover {
 	color: var(--color-5);
+}
+
+.color-6,
+.hover-color-6:hover {
+	color: var(--color-6);
+}
+
+.color-7,
+.hover-color-7:hover {
+	color: var(--color-7);
 }
