@@ -2,13 +2,6 @@
 	{
 		"id": "helth",
 		"title": "HELTH Programs",
-		"url": "/education/ged",
-		"programs": [
-			{
-				"title": "GCCARD",
-				"url": "/",
-				"description": "Genesee County Community Action Resource Department (GCCARD)"
-			}
-		]
+		"url": "/education/ged"
 	}
 ]

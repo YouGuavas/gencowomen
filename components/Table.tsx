@@ -1,23 +1,48 @@
 import ResourceLink from './ResourceLink';
-import { ResourceLinkType, TableProps } from '@/types/types';
+import {
+	LinkType,
+	ResourceLinkType,
+	TablePropsA,
+	TablePropsB,
+} from '@/types/types';
 import styles from '../styles/components/Table.module.css';
-const Table: React.FC<TableProps> = ({ links }) => {
-	return (
-		<ul
-			className={`p-12 grid grid-cols-3 grid-rows-3 gap-2 ${styles.table} background-3`}
-		>
-			{links.map((link: ResourceLinkType, index) => {
+const Table: React.FC<TablePropsA | TablePropsB> = ({
+	links,
+	resourceTrue,
+}) => {
+	const renderTable = (resourceTrue: boolean) => {
+		if (resourceTrue) {
+			return links.map((link: ResourceLinkType, index: number) => {
 				return (
 					<ResourceLink
+						id={link.id}
 						key={index}
 						title={link.title}
 						url={link.url}
 						description={link.description}
-						programs={link.programs}
 					/>
 				);
-			})}
+			});
+		} else {
+			return links.map((link: LinkType, index: number) => {
+				return (
+					<ResourceLink
+						id={link.id}
+						key={index}
+						title={link.title}
+						url={link.url}
+						description={false}
+					/>
+				);
+			});
+		}
+	};
+	return (
+		<ul
+			className={`p-12 grid grid-cols-3 grid-rows-3 gap-2 ${styles.table} background-3`}
+		>
+			{renderTable(resourceTrue)}
 		</ul>
 	);
 };
-module.exports = { Table };
+export default Table;

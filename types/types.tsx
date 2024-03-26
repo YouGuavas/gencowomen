@@ -2,15 +2,21 @@ import { ReactNode } from 'react';
 import { Url } from 'url';
 
 export interface LinkType {
+	id: ReactNode;
 	title: ReactNode;
-	url: Url;
+	url: string;
 }
 export interface ResourceLinkType extends LinkType {
 	description: ReactNode;
 }
-export interface PrimaryResourceLinkType extends ResourceLinkType {
-	programs: ResourceLinkType[];
+
+export type TableProps = TablePropsA | TablePropsB;
+
+export interface TablePropsA {
+	links: Array<LinkType>;
+	resourceTrue: boolean;
 }
-export interface TableProps {
-	links: ResourceLinkType[];
+export interface TablePropsB {
+	links: Array<ResourceLinkType>;
+	resourceTrue: boolean;
 }
