@@ -1,4 +1,5 @@
 [
 	{ "text": "Home", "url": "/" },
-	{ "text": "Education", "url": "/education" }
+	{ "text": "Education", "url": "/education" },
+	{ "text": "Healthcare", "url": "/healthcare" }
 ]
