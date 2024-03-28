@@ -7,7 +7,7 @@ const ResourceLink: React.FC<LinkType> = ({ title, url, description }) => {
 	return (
 		<>
 			<Link
-				className={`flex flex-col row-span-1 ${styles.link} background-4 color-5`}
+				className={`flex flex-col row-span-1 ${styles.link} background-2 color-7`}
 				href={url}
 			>
 				<span>{title}</span>
