@@ -4,6 +4,11 @@ import styles from '../styles/components/ResourceLink.module.css';
 
 const ResourceLink: React.FC<Program> = (props) => {
 	const { id, title, url } = props;
+	const handleDescription = () => {
+		const descriptionParent = document.getElementById(id ? id.toString() : '');
+		const description = descriptionParent?.querySelector('p');
+		description?.classList.toggle('hidden');
+	};
 	const renderProps = () => {
 		if (url) {
 			return Object.entries(props).map(([prop, value], index) => {
@@ -12,7 +17,7 @@ const ResourceLink: React.FC<Program> = (props) => {
 					return (
 						<li key={index}>
 							<strong className="capitalize">{`${prop}: `}</strong>
-							{value}
+							<p>{value}</p>
 						</li>
 					);
 				}
@@ -24,7 +29,7 @@ const ResourceLink: React.FC<Program> = (props) => {
 	return (
 		<>
 			<Link
-				className={`${styles.link} background-2 color-7 flex flex-col gap-1`}
+				className={`${styles.link} col-span-1 background-2 color-7 flex flex-col gap-1`}
 				href={url ? url.toString() : 'error'}
 			>
 				<h2>{title}</h2>
