@@ -4,7 +4,7 @@ import { Url } from 'url';
 export interface LinkType {
 	id: ReactNode;
 	title: ReactNode;
-	url: Url;
+	url: ReactNode;
 }
 export interface Program extends LinkType {
 	description: ReactNode;
@@ -17,10 +17,8 @@ export type LinkTypes = LinkType | Program;
 
 export interface TablePropsMain {
 	links: Array<LinkType>;
-	resourceTrue: boolean;
 }
 export interface TablePropsResource {
 	programs: Array<Program>;
-	resourceTrue: boolean;
 }
 export type TableProps = TablePropsMain | TablePropsResource;

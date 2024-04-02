@@ -7,6 +7,7 @@ import {
 	TablePropsResource,
 } from '@/types/types';
 import styles from '../styles/components/Table.module.css';
+import NavigationLink from './NavigationLink';
 
 const Table: React.FC<TableProps> = (props) => {
 	const renderTable = () => {
@@ -15,7 +16,7 @@ const Table: React.FC<TableProps> = (props) => {
 
 			return links.map((link: LinkType, index: number) => {
 				return (
-					<ResourceLink
+					<NavigationLink
 						id={link.id}
 						key={index}
 						title={link.title}
@@ -31,8 +32,10 @@ const Table: React.FC<TableProps> = (props) => {
 					key={index}
 					title={program.title}
 					url={program.url}
-					description={program.description}
+					email={program.email}
+					phone={program.phone}
 					address={program.address}
+					description={program.description}
 				/>
 			));
 		} else {
