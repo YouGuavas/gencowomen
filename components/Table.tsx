@@ -9,7 +9,6 @@ import {
 import styles from '../styles/components/Table.module.css';
 
 const Table: React.FC<TableProps> = (props) => {
-	const { resourceTrue } = props;
 	const renderTable = () => {
 		if ('links' in props) {
 			const { links } = props as TablePropsMain; // Type assertion to TablePropsMain
@@ -21,7 +20,6 @@ const Table: React.FC<TableProps> = (props) => {
 						key={index}
 						title={link.title}
 						url={link.url}
-						description={resourceTrue ? link.description : false}
 					/>
 				);
 			});
@@ -33,7 +31,8 @@ const Table: React.FC<TableProps> = (props) => {
 					key={index}
 					title={program.title}
 					url={program.url}
-					description={resourceTrue ? program.description : false}
+					description={program.description}
+					address={program.address}
 				/>
 			));
 		} else {
