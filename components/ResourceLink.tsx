@@ -14,12 +14,21 @@ const ResourceLink: React.FC<Program> = (props) => {
 			return Object.entries(props).map(([prop, value], index) => {
 				if (prop !== 'title' && prop !== 'id') {
 					prop === 'url' ? (prop = 'website') : null;
-					return (
-						<li key={index}>
-							<strong className="capitalize">{`${prop}: `}</strong>
-							<p>{value}</p>
-						</li>
-					);
+					if (prop !== 'description') {
+						return (
+							<li key={index} className="flex gap-1">
+								<strong className="capitalize">{`${prop}: `}</strong>
+								<p>{value}</p>
+							</li>
+						);
+					} else {
+						return (
+							<li key={index} className="flex flex-col text-left gap-1">
+								<strong className="capitalize">{`${prop}: `}</strong>
+								<p>{value}</p>
+							</li>
+						);
+					}
 				}
 			});
 		} else {
@@ -29,11 +38,11 @@ const ResourceLink: React.FC<Program> = (props) => {
 	return (
 		<>
 			<Link
-				className={`${styles.link} col-span-1 background-2 color-7 flex flex-col gap-1`}
+				className={`${styles.link} col-span-1 background-2 color-7 flex flex-col gap-2`}
 				href={url ? url.toString() : 'error'}
 			>
 				<h2>{title}</h2>
-				<ul>{renderProps()}</ul>
+				<ul className="flex flex-col gap-1">{renderProps()}</ul>
 			</Link>
 		</>
 	);
