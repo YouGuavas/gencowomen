@@ -16,14 +16,20 @@ const ResourceLink: React.FC<Program> = (props) => {
 					prop === 'url' ? (prop = 'website') : null;
 					if (prop !== 'description') {
 						return (
-							<li key={index} className="flex gap-1">
+							<li
+								key={index}
+								className="flex gap-1 overflow-x-scroll md:overflow-x-auto"
+							>
 								<strong className="capitalize">{`${prop}: `}</strong>
 								<p>{value}</p>
 							</li>
 						);
 					} else {
 						return (
-							<li key={index} className="flex flex-col text-left gap-1">
+							<li
+								key={index}
+								className="flex flex-col text-left gap-1 sm:overflow-y-scroll md:overflow-y-auto"
+							>
 								<strong className="capitalize">{`${prop}: `}</strong>
 								<p>{value}</p>
 							</li>

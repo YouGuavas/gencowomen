@@ -45,7 +45,7 @@ const Table: React.FC<TableProps> = (props) => {
 
 	return (
 		<main
-			className={`p-6 grid md:grid-cols-3 grid-cols-1 grid-rows-3 gap-2 ${styles.table} background-3`}
+			className={`p-6 grid md:grid-cols-3 grid-cols-1 grid-rows-3 gap-2 ${styles.table} background-6`}
 		>
 			{renderTable()}
 		</main>

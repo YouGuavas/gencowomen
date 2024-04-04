@@ -14,7 +14,7 @@ const NavigationLink: React.FC<LinkTypes> = (props) => {
 	return (
 		<>
 			<Link
-				className={`${styles.link} background-2 color-7 flex flex-col content-center`}
+				className={`${styles.link} background-2 color-7 flex flex-col content-center justify-center`}
 				href={url ? url.toString() : 'error'}
 			>
 				{renderLinks()}
