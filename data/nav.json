@@ -1,5 +1,7 @@
 [
 	{ "text": "Home", "url": "/" },
 	{ "text": "Education", "url": "/education" },
-	{ "text": "Healthcare", "url": "/healthcare" }
+	{ "text": "Healthcare", "url": "/healthcare" },
+	{ "text": "Housing", "url": "/housing" },
+	{ "text": "Financial Aid", "url": "/financial" }
 ]

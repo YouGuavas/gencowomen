@@ -32,7 +32,6 @@ const Table: React.FC<TableProps> = (props) => {
 					key={index}
 					title={program.title}
 					url={program.url}
-					email={program.email}
 					phone={program.phone}
 					address={program.address}
 					description={program.description}
@@ -45,7 +44,7 @@ const Table: React.FC<TableProps> = (props) => {
 
 	return (
 		<main
-			className={`p-6 grid lg:grid-cols-3 grid-cols-1 grid-rows-3 gap-2 ${styles.table} background-6`}
+			className={`p-6 grid lg:grid-cols-3 grid-cols-1 grid-rows-3 gap-2 ${styles.table} background-1`}
 		>
 			{renderTable()}
 		</main>

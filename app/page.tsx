@@ -2,7 +2,7 @@ import Link from 'next/link';
 export default function Home() {
 	return (
 		<>
-			<header className="md:p-6 p-2 text-xs md:text-base xl:text-2xl text-center background-2 color-7">
+			<header className="md:p-6 p-2 text-xs md:text-base xl:text-2xl text-center background-1 color-7">
 				<h1>Welcome to the Genesee County Women's Resource Directory!</h1>
 				<p>
 					Our mission is to connect underserved women in Genesee County,

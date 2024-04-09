@@ -10,7 +10,6 @@ export interface Program extends LinkType {
 	description: ReactNode;
 
 	address: ReactNode;
-	email: ReactNode;
 	phone: ReactNode;
 }
 export type LinkTypes = LinkType | Program;
