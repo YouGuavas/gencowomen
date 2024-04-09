@@ -1,0 +1,20 @@
+[
+	{
+		"id": "genesee_housing",
+		"title": "Genesee County Community Action Resource Department (GCCARD) - Housing Assistance",
+		"address": "601 N. Saginaw St., Suite #1A, Flint, MI 48502",
+		"url": "https://www.gc4me.com/departments/community_action/resources_and_support.php",
+		"email": "",
+		"phone": "(810) 232-2185",
+		"description": "GCCARD offers housing assistance programs, including rental assistance, housing counseling, and homeless prevention services, to low-income individuals and families in Genesee County."
+	},
+	{
+		"id": "genesee_womens_shelter",
+		"title": "Genesee County Women's Shelter",
+		"address": "PO Box 1833, Flint, MI 48501",
+		"url": "https://www.geneseehomeless.org/",
+		"email": "geneseehomeless@geneseehomeless.org",
+		"phone": "(810) 238-4711",
+		"description": "The Genesee County Women's Shelter provides emergency shelter, transitional housing, and support services to homeless and underserved women and their children in Genesee County."
+	}
+]

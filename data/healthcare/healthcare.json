@@ -1,0 +1,20 @@
+[
+	{
+		"id": "genesee_health",
+		"title": "Genesee Health Plan",
+		"address": "2171 S. Linden Road, Flint, MI 48532",
+		"url": "https://www.geneseehealthplan.org/",
+		"email": "info@geneseehealthplan.org",
+		"phone": "(810) 232-7740",
+		"description": "Genesee Health Plan offers comprehensive healthcare coverage for low-income adults and families who do not have health insurance."
+	},
+	{
+		"id": "genesee_womens_center",
+		"title": "Genesee County Free Medical Clinic - Women's Health Services",
+		"address": "725 Mason Street, Flint, MI 48503",
+		"url": "http://www.gcfmc.org/",
+		"email": "info@gcfmc.org",
+		"phone": "(810) 235-4211",
+		"description": "The Genesee County Free Medical Clinic provides free medical care and services, including women's health services, to uninsured individuals in the community."
+	}
+]

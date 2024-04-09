@@ -2,7 +2,7 @@ import Link from 'next/link';
 export default function Home() {
 	return (
 		<>
-			<header className="md:p-6 p-2 text-xs md:text-base xl:text-3xl text-center background-2 color-7">
+			<header className="md:p-6 p-2 text-xs md:text-base xl:text-2xl text-center background-2 color-7">
 				<h1>Welcome to the Genesee County Women's Resource Directory!</h1>
 				<p>
 					Our mission is to connect underserved women in Genesee County,
@@ -10,7 +10,7 @@ export default function Home() {
 				</p>
 			</header>
 
-			<main className="flex min-h-screen flex-col justify-between p-2 md:p-24">
+			<main className="flex min-h-screen flex-col justify-between p-2 md:px-14">
 				<section className="background-1 px-2 py-4 rounded-sm mb-1">
 					<Link href="/healthcare">
 						<h2 className="text-base md:text-2xl font-bold mb-4 color-6">
