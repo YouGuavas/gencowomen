@@ -7,7 +7,7 @@ export function Nav() {
 				return (
 					<Link
 						key={index}
-						className="p-2 py-4 color-7 hover-color-6 background-1 hover-background-2 duration-700 rounded-md uppercase font-medium tracking-wider"
+						className="text-xs md:text-base p-2 py-4 color-7 hover-color-6 background-1 hover-background-2 duration-700 rounded-md uppercase font-medium tracking-wider"
 						href={link.url}
 					>
 						{link.text}

@@ -2,7 +2,7 @@ import Link from 'next/link';
 export default function Home() {
 	return (
 		<>
-			<header className="p-6 text-center background-2 color-7">
+			<header className="md:p-6 p-2 text-xs md:text-base xl:text-3xl text-center background-2 color-7">
 				<h1>Welcome to the Genesee County Women's Resource Directory!</h1>
 				<p>
 					Our mission is to connect underserved women in Genesee County,
@@ -10,13 +10,13 @@ export default function Home() {
 				</p>
 			</header>
 
-			<main className="flex min-h-screen flex-col justify-between p-24">
+			<main className="flex min-h-screen flex-col justify-between p-2 md:p-24">
 				<section className="background-1 px-2 py-4 rounded-sm mb-1">
 					<Link href="/healthcare">
-						<h2 className="text-2xl font-bold mb-4 color-6">
+						<h2 className="text-base md:text-2xl font-bold mb-4 color-6">
 							Healthcare Services
 						</h2>
-						<ul className="list-disc ml-4 color-6">
+						<ul className="list-disc ml-4 color-6 text-xs md:text-base">
 							<li>
 								Women's clinics and healthcare providers offering affordable or
 								free services
@@ -31,7 +31,7 @@ export default function Home() {
 				</section>
 
 				<section className="background-2 px-2 py-4 rounded-sm mb-1">
-					<h2 className="text-2xl font-bold mb-4 color-6">
+					<h2 className="text-base md:text-2xl font-bold mb-4 color-6">
 						Employment and Education
 					</h2>
 					<ul className="list-disc ml-4 color-6">
@@ -48,7 +48,7 @@ export default function Home() {
 				</section>
 
 				<section className="background-3 px-2 py-4 rounded-sm mb-1">
-					<h2 className="text-2xl font-bold mb-4 color-7">
+					<h2 className="text-base md:text-2xl font-bold mb-4 color-7">
 						Housing and Shelter
 					</h2>
 					<ul className="list-disc ml-4 color-7">
@@ -64,7 +64,7 @@ export default function Home() {
 					</ul>
 				</section>
 				<section className="background-4 px-2 py-4 rounded-sm mb-1">
-					<h2 className="text-2xl font-bold mb-4 color-7">
+					<h2 className="text-base md:text-2xl font-bold mb-4 color-7">
 						Financial Assistance
 					</h2>
 					<ul className="list-disc ml-4 color-7">
@@ -81,7 +81,7 @@ export default function Home() {
 				</section>
 
 				<section className="background-5 px-2 py-4 rounded-sm mb-1">
-					<h2 className="text-2xl font-bold mb-4 color-1">
+					<h2 className="text-base md:text-2xl font-bold mb-4 color-1">
 						Legal Aid and Advocacy
 					</h2>
 					<ul className="list-disc ml-4 color-1">
@@ -100,7 +100,7 @@ export default function Home() {
 				</section>
 
 				<section className="background-6 px-2 py-4 rounded-sm">
-					<h2 className="text-2xl font-bold mb-4 color-2">
+					<h2 className="text-base md:text-2xl font-bold mb-4 color-2">
 						Community Support and Outreach
 					</h2>
 					<ul className="list-disc ml-4 color-2">

@@ -7,7 +7,7 @@ import {
 	TablePropsResource,
 } from '@/types/types';
 import styles from '../styles/components/Table.module.css';
-import NavigationLink from './NavigationLink';
+import InSiteLink from './InSiteLink';
 
 const Table: React.FC<TableProps> = (props) => {
 	const renderTable = () => {
@@ -16,7 +16,7 @@ const Table: React.FC<TableProps> = (props) => {
 
 			return links.map((link: LinkType, index: number) => {
 				return (
-					<NavigationLink
+					<InSiteLink
 						id={link.id}
 						key={index}
 						title={link.title}
@@ -45,7 +45,7 @@ const Table: React.FC<TableProps> = (props) => {
 
 	return (
 		<main
-			className={`p-6 grid md:grid-cols-3 grid-cols-1 grid-rows-3 gap-2 ${styles.table} background-6`}
+			className={`p-6 grid lg:grid-cols-3 grid-cols-1 grid-rows-3 gap-2 ${styles.table} background-6`}
 		>
 			{renderTable()}
 		</main>
