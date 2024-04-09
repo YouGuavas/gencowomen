@@ -18,7 +18,7 @@ const ResourceLink: React.FC<Program> = (props) => {
 						return (
 							<li
 								key={index}
-								className="flex gap-1 overflow-x-scroll md:overflow-x-auto"
+								className="flex gap-1 overflow-x-scroll md:overflow-x-auto text-xs sm:text-sm md:text-md"
 							>
 								<strong className="capitalize">{`${prop}: `}</strong>
 								<p>{value}</p>
