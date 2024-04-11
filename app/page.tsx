@@ -3,7 +3,7 @@ export default function Home() {
 	return (
 		<>
 			<header className="md:p-6 p-2 text-xs md:text-base xl:text-2xl text-center background-1 color-7">
-				<h1>Welcome to the Genesee County Women's Resource Directory!</h1>
+				<h1>Welcome to the Genesee County Women&apos;s Resource Directory!</h1>
 				<p>
 					Our mission is to connect underserved women in Genesee County,
 					Michigan, with the resources and support they need to thrive.
@@ -18,8 +18,8 @@ export default function Home() {
 						</h2>
 						<ul className="list-disc ml-4 color-6 text-xs md:text-base">
 							<li>
-								Women's clinics and healthcare providers offering affordable or
-								free services
+								Women&apos;s clinics and healthcare providers offering
+								affordable or free services
 							</li>
 							<li>Mental health resources and support groups</li>
 							<li>
@@ -89,7 +89,7 @@ export default function Home() {
 							Legal aid organizations providing free or low-cost legal services
 						</li>
 						<li>
-							Advocacy groups and resources for women's rights and gender
+							Advocacy groups and resources for women&apos;s rights and gender
 							equality
 						</li>
 						<li>
