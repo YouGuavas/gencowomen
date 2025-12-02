@@ -3,7 +3,7 @@
 	{ "text": "Education", "url": "/education" },
 	{ "text": "Healthcare", "url": "/healthcare" },
 	{ "text": "Housing", "url": "/housing" },
-	{ "text": "Financial Aid", "url": "/financial" },
-	{ "text": "Legal Aid", "url": "/legal" },
+	{ "text": "Financial", "url": "/financial" },
+	{ "text": "Legal", "url": "/legal" },
 	{ "text": "Community", "url": "/community" }
 ]
