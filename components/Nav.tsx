@@ -47,9 +47,7 @@ export function Nav() {
 			</button>
 
 			<div
-				className={`flex flex-col md:flex-row ${
-					isMenuOpen || window?.innerWidth > 767 ? 'block' : 'hidden'
-				} transition-max-height duration-700 ease-in-out overflow-hidden`}
+				className={`flex flex-col md:flex-row block transition-max-height duration-700 ease-in-out overflow-hidden`}
 				style={{ maxHeight: '500px' }}
 			>
 				{navLinks.map((link, index) => (
