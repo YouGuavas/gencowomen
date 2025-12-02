@@ -31,92 +31,105 @@ export default function Home() {
 				</section>
 
 				<section className="background-2 px-2 py-4 rounded-sm mb-1">
-					<h2 className="text-base md:text-2xl font-bold mb-4 color-6">
-						Employment and Education
-					</h2>
-					<ul className="list-disc ml-4 color-6">
-						<li>Job training programs and career development resources</li>
-						<li>
-							Educational opportunities, including scholarships and vocational
-							training
-						</li>
-						<li>
-							Assistance with resume writing, interview preparation, and job
-							placement services
-						</li>
-					</ul>
+					<Link href="/education">
+						<h2 className="text-base md:text-2xl font-bold mb-4 color-6">
+							Employment and Education
+						</h2>
+						<ul className="list-disc ml-4 color-6">
+							<li>Job training programs and career development resources</li>
+							<li>
+								Educational opportunities, including scholarships and vocational
+								training
+							</li>
+							<li>
+								Assistance with resume writing, interview preparation, and job
+								placement services
+							</li>
+						</ul>
+					</Link>
 				</section>
 
 				<section className="background-3 px-2 py-4 rounded-sm mb-1">
-					<h2 className="text-base md:text-2xl font-bold mb-4 color-7">
-						Housing and Shelter
-					</h2>
-					<ul className="list-disc ml-4 color-7">
-						<li>
-							Emergency shelters and transitional housing options for women and
-							families
-						</li>
-						<li>Rental assistance programs and affordable housing resources</li>
-						<li>
-							Supportive services for survivors of domestic violence and
-							homelessness
-						</li>
-					</ul>
+					<Link href="/housing">
+						<h2 className="text-base md:text-2xl font-bold mb-4 color-7">
+							Housing and Shelter
+						</h2>
+						<ul className="list-disc ml-4 color-7">
+							<li>
+								Emergency shelters and transitional housing options for women
+								and families
+							</li>
+							<li>
+								Rental assistance programs and affordable housing resources
+							</li>
+							<li>
+								Supportive services for survivors of domestic violence and
+								homelessness
+							</li>
+						</ul>
+					</Link>
 				</section>
 				<section className="background-4 px-2 py-4 rounded-sm mb-1">
-					<h2 className="text-base md:text-2xl font-bold mb-4 color-7">
-						Financial Assistance
-					</h2>
-					<ul className="list-disc ml-4 color-7">
-						<li>Financial literacy workshops and counseling services</li>
-						<li>
-							Programs offering assistance with utility bills, groceries, and
-							other basic needs
-						</li>
-						<li>
-							Benefits enrollment assistance for programs such as SNAP,
-							Medicaid, and TANF
-						</li>
-					</ul>
+					<Link href="/financial">
+						<h2 className="text-base md:text-2xl font-bold mb-4 color-7">
+							Financial Assistance
+						</h2>
+						<ul className="list-disc ml-4 color-7">
+							<li>Financial literacy workshops and counseling services</li>
+							<li>
+								Programs offering assistance with utility bills, groceries, and
+								other basic needs
+							</li>
+							<li>
+								Benefits enrollment assistance for programs such as SNAP,
+								Medicaid, and TANF
+							</li>
+						</ul>
+					</Link>
 				</section>
 
 				<section className="background-5 px-2 py-4 rounded-sm mb-1">
-					<h2 className="text-base md:text-2xl font-bold mb-4 color-1">
-						Legal Aid and Advocacy
-					</h2>
-					<ul className="list-disc ml-4 color-1">
-						<li>
-							Legal aid organizations providing free or low-cost legal services
-						</li>
-						<li>
-							Advocacy groups and resources for women&apos;s rights and gender
-							equality
-						</li>
-						<li>
-							Support services for survivors of domestic violence, sexual
-							assault, and human trafficking
-						</li>
-					</ul>
+					<Link href="/legal">
+						<h2 className="text-base md:text-2xl font-bold mb-4 color-1">
+							Legal Aid and Advocacy
+						</h2>
+						<ul className="list-disc ml-4 color-1">
+							<li>
+								Legal aid organizations providing free or low-cost legal
+								services
+							</li>
+							<li>
+								Advocacy groups and resources for women&apos;s rights and gender
+								equality
+							</li>
+							<li>
+								Support services for survivors of domestic violence, sexual
+								assault, and human trafficking
+							</li>
+						</ul>
+					</Link>
 				</section>
 
 				<section className="background-6 px-2 py-4 rounded-sm">
-					<h2 className="text-base md:text-2xl font-bold mb-4 color-2">
-						Community Support and Outreach
-					</h2>
-					<ul className="list-disc ml-4 color-2">
-						<li>
-							Support groups and peer counseling services for women facing
-							various challenges
-						</li>
-						<li>
-							Community centers and organizations offering recreational
-							activities and social events
-						</li>
-						<li>
-							Volunteer opportunities and ways to get involved in supporting
-							underserved women in our community
-						</li>
-					</ul>
+					<Link href="/legal">
+						<h2 className="text-base md:text-2xl font-bold mb-4 color-2">
+							Community Support and Outreach
+						</h2>
+						<ul className="list-disc ml-4 color-2">
+							<li>
+								Support groups and peer counseling services for women facing
+								various challenges
+							</li>
+							<li>
+								Community centers and organizations offering recreational
+								activities and social events
+							</li>
+							<li>
+								Volunteer opportunities and ways to get involved in supporting
+								underserved women in our community
+							</li>
+						</ul>
+					</Link>
 				</section>
 			</main>
 
