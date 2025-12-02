@@ -14,38 +14,8 @@ export function Nav() {
 	const renderHamburger = () => {};
 	return (
 		<nav
-			className={`background-2 rounded-md md:p-1 flex flex-col md:flex-row gap-1 md:gap-2 text-xs md:text-base`}
+			className={`background-2 rounded-md md:p-1 flex flex-row md:flex-row gap-1 md:gap-2 text-xs md:text-base`}
 		>
-			<button
-				onClick={toggleMenu}
-				className="md:hidden p-2 w-10 content-center justify-center text-center transition duration-700 ease-in-out"
-				aria-label="Toggle Menu"
-			>
-				<svg
-					className="w-6 h-6"
-					fill="none"
-					stroke="currentColor"
-					viewBox="0 0 24 24"
-					xmlns="http://www.w3.org/2000/svg"
-				>
-					{isMenuOpen ? (
-						<path
-							strokeLinecap="round"
-							strokeLinejoin="round"
-							strokeWidth="2"
-							d="M6 18L18 6M6 6l12 12"
-						/>
-					) : (
-						<path
-							strokeLinecap="round"
-							strokeLinejoin="round"
-							strokeWidth="2"
-							d="M4 6h16M4 12h16m-7 6h7"
-						/>
-					)}
-				</svg>
-			</button>
-
 			<div
 				className={`flex flex-col md:flex-row transition-max-height duration-700 ease-in-out overflow-hidden`}
 				style={{ maxHeight: '500px' }}
