@@ -17,7 +17,7 @@ export function Nav() {
 			className={`background-2 rounded-md md:p-1 flex flex-row md:flex-row gap-1 md:gap-2 text-xs md:text-base`}
 		>
 			<div
-				className={`flex flex-col md:flex-row transition-max-height duration-700 ease-in-out overflow-hidden`}
+				className={`flex flex-row md:flex-row transition-max-height duration-700 ease-in-out overflow-hidden`}
 				style={{ maxHeight: '500px' }}
 			>
 				{navLinks.map((link, index) => (
